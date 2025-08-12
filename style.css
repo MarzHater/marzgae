@@ -4,8 +4,22 @@ html{
     margin-top: 250;
 }
 
-.h1{
-    font-size: 100;
+.gay{
+    font-size: 200px;
     text-align: center;
-    margin-top: 250;
+    margin-top: 50px;
+    color: #ffacf8;
+    text-decoration: none;
+    /* transition: all .25s cubic-bezier(.08, .59, .29, .99); */
+    -webkit-tap-highlight-color: transparent;
+    animation: hue 2s linear infinite;
+}
+
+@keyframes hue {
+    0% {
+        filter: hue-rotate(0deg)
+    }
+    100% {
+        filter: hue-rotate(360deg)
+    }
 }
